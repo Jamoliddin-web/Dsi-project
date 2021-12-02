@@ -1,0 +1,286 @@
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1160px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
+
+/* HEADER */
+.main-header  {
+  /* border-bottom: 2px solid #1F2E35; */
+  box-shadow: 2px 3px  rgba(31, 46, 53, 0.8);;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.main-header-div {
+    display: flex;
+    align-items: center;
+   }
+
+.logo-div {
+  display: flex;
+}
+
+.logo-list {
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+}
+
+.logo-item-dwidsia {
+  color: rgba(31, 46, 53, 0.8);
+}
+
+.logo-item-sarsara {
+  color: rgba(31, 46, 53, 0.8);
+}
+
+.logo-item-indonesia {
+  color: #000;
+}
+
+
+.sitenav-list {
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sitenav-item {
+    margin-left: 50px;
+}
+.sitenav-link {
+  text-decoration: none;
+  color: rgba(31, 46, 53, 0.8);
+}
+
+.sitenav-link:hover {
+  opacity: 0.8;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+.sitenav-link-union{
+  margin-left: 116px;
+}
+
+.sitenav-link-mail {
+  margin-left: 24px;
+}
+
+.sitenav-link-shuffle {
+  margin-left: 24px;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+.main-info-title {
+    width: 545px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.main-info-text {
+    width: 520px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 29px;
+}
+.main-link {
+    background: #EE4248;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
+}
+
+span {
+    color: red;
+}
+
+.main-info-article {
+  background-color: #f6f6f6;
+  /* padding-top: 15px; */
+  padding-bottom: 70px;
+}
+
+.main-info-section {
+  display: flex;
+  align-items: center;
+  /* background-color: #f6f6f6; */
+  margin-top: 150px;
+}
+
+.main-info-div {
+    margin-left: 82px;
+}
+
+.main-info-section-title {
+    width: 454px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.main-info-section-text {
+    width: 520px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.main-info-section-text-again {
+  width: 520px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.product-section {
+  margin-bottom: 120px;
+}
+
+.product-article {
+  display: flex;
+}
+
+.product-title {
+
+  font-family: 'Roboto',sans-serif;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.product-title-div {
+  /* margin-right: auto; */
+  margin-left: 380px;
+  /* align-items: center; */
+}
+
+.product-text {
+  width: 319px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: 'Roboto',sans-serif;
+}
+
+.service-div {
+  margin-left: 55px;
+}
+
+.service-text {
+  width: 329px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: 'Roboto',sans-serif;
+}
+
+.technology-div {
+  margin-left: 55px;
+}
+
+.technology-text {
+  width: 329px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: 'Roboto',sans-serif;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.last-info-div {
+  display: flex;
+  align-items: center;
+}
+
+.last-info-text {
+  width: 317px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  font-family: 'Roboto',sans-serif;
+  color:  rgba(31, 46, 53, 0.8);;
+}
+
+.contact-title {
+  font-size: 24px;
+  /* line-height: 26px; */
+  font-weight: 500;
+}
+
+.contact-article {
+  margin-left:47px ;
+}
+
+.contact-text {
+  width: 269px;
+}
+
+
+.footer-div {
+  background: #EE4248;
+  padding: 10px;
+}
+
+.footer-title {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
